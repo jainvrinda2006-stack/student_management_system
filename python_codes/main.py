@@ -7,7 +7,7 @@ def main():
     my_students = file_handler.load_students()
 
     while True:
-        print("\n==========================")
+        print("==========================")
         print(" STUDENT MANAGEMENT SYSTEM")
         print("==========================")
         print("1. Add New Student")
@@ -16,7 +16,7 @@ def main():
         print("4. Delete Student")
         print("5. Exit")
         
-        choice = input("\nEnter your choice (1-5): ")
+        choice = input("Enter your choice (1-5): ")
 
         if choice == '1':
             my_students = actions.add_student(my_students)
